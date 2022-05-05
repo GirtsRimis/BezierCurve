@@ -1,0 +1,10 @@
+https://github.com/ocornut/imgui
+
+https://www.geeksforgeeks.org/cubic-bezier-curve-implementation-in-c/
+https://stackoverflow.com/questions/785097/how-do-i-implement-a-b%C3%A9zier-curve-in-c
+https://medium.com/geekculture/2d-and-3d-b%C3%A9zier-curves-in-c-499093ef45a9
+
+https://www.geeksforgeeks.org/midpoint-ellipse-drawing-algorithm/
+https://www.geeksforgeeks.org/mid-point-circle-drawing-algorithm/
+https://www.geeksforgeeks.org/bresenhams-circle-drawing-algorithm/
+
