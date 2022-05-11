@@ -21,6 +21,14 @@ target_include_directories(Bezier PRIVATE ${SFML_INCLUDE_DIR} ${ImGui-SFML_DIR})
 
 target_link_libraries(Bezier sfml-graphics ImGui-SFML::ImGui-SFML)
 
+add_executable(Transform 
+    transform.cpp
+)
+target_include_directories(Transform PRIVATE ${SFML_INCLUDE_DIR} ${ImGui-SFML_DIR})
+
+target_link_libraries(Transform sfml-graphics ImGui-SFML::ImGui-SFML)
+
+
 # Make .exe (Windows)
 if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
     set(BUILD_FOR_WIN TRUE)
