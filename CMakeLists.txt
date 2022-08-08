@@ -28,6 +28,10 @@ target_include_directories(Transform PRIVATE ${SFML_INCLUDE_DIR} ${ImGui-SFML_DI
 
 target_link_libraries(Transform sfml-graphics ImGui-SFML::ImGui-SFML)
 
+add_executable(String_fun 
+    fun_strings.cpp
+)
+
 
 # Make .exe (Windows)
 if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
